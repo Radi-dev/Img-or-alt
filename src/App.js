@@ -12,7 +12,7 @@ function App() {
     >
       <ImgOrAlt
         src="i.jpg"
-        alt="radius 25px"
+        alt="with border radius 25px"
         style={{
           "border-radius": 25,
           "margin-top": 10,
@@ -20,10 +20,10 @@ function App() {
         }}
       />
 
-      <ImgOrAlt src="path/to/image" alt="No path entered" />
+      <ImgOrAlt src="path/to/image" alt="Path not found" />
       <ImgOrAlt
         src="i.jpg"
-        alt="img with 3px solid black border, radius 15px"
+        alt="img with 3px solid black border, border radius 15px"
         style={{ "border-radius": 15, border: "3px solid black" }}
       />
     </div>
