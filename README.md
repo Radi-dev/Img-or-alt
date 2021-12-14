@@ -10,3 +10,7 @@ Sample basic usage:
 Usage with extra img properties:
 <ImgOrAlt src="path/to/image" alt="alternate-text"
 width="100" />
+  
+To use this component, clone the repository or dowload and extract it to your machine.
+Open terminal to the folder.
+Run npm install.
