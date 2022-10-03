@@ -5,11 +5,11 @@ const ImgOrAlt = ({ src, alt = "Image", ...props }) => {
   only displays alt text (without the broken image icon) when the 
   target image isn't available. User can pass in extra props acceptable to the img tag */
   const altImg = <div>{alt}</div>;
-  const clickHandler = () => {
+  const altHandler = () => {
     setImg(altImg);
   };
   const imgJsx = (
-    <img src={src} alt={alt} onError={clickHandler} {...props}></img>
+    <img src={src} alt={alt} onError={altHandler} {...props}></img>
   );
   const [Img, setImg] = useState(imgJsx);
   return Img;
